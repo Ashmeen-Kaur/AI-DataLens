@@ -1,7 +1,4 @@
 # 📊 DataLens AI
-
-DataLens AI is a Streamlit web app that lets you upload any CSV dataset and ask questions about it in plain English. Gemini interprets your question, but every number in the answer is calculated by pandas — not hallucinated by the LLM.
-
 ## Overview
 
 Upload a CSV → get an instant automated profile (shape, missing values, duplicates, column types, descriptive stats) → then ask natural-language questions like *"Which department has the highest average salary?"* and get back a written answer, a data table, and (when appropriate) a chart.
