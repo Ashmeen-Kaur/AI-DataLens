@@ -55,5 +55,3 @@ Result shown to user
 ```
 
 The key design decision: **Gemini decides *what* to calculate, pandas decides *the answer*.** The LLM returns a small JSON spec (operation, target column, group-by column, filter, etc.), which `analyzer.py` executes using a fixed, whitelisted set of pandas operations. This means the LLM can never invent a number and can never run arbitrary code.
-
-MIT
